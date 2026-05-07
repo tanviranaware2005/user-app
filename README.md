@@ -36,4 +36,6 @@ ng generate component login
 
 ng generate component profile
 
+ng serve -o
+
 ng generate service user

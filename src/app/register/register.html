@@ -1,0 +1,26 @@
+<h1>Register User</h1>
+
+<input type="text" #name placeholder="Enter Name">
+<br><br>
+
+<input type="text" #address placeholder="Enter Address">
+<br><br>
+
+<input type="text" #contact placeholder="Enter Contact">
+<br><br>
+
+<input type="email" #email placeholder="Enter Email">
+<br><br>
+
+<input type="password" #pass placeholder="Enter Password">
+<br><br>
+
+<button (click)="registerUser(
+name.value,
+address.value,
+contact.value,
+email.value,
+pass.value
+)">
+Register
+</button>
